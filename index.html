@@ -10,31 +10,145 @@
 
 <body>
     <main>
+
+        <button onclick="topFunction()" id="btnVolver" title="Volver"><img src="/Cesars/assets/img/imgback.png"
+                alt=""></button>
         <header>
             <nav class="nav">
                 <a href="inicio.html">
-                    <img src="../Cesars/assets/img/logo.png" alt="">
+                    <img src="/Cesars/assets/img/logo.png" alt="">
                 </a>
                 <ul>
-                    <li>Inicio</li>
-                    <li>Acerca de </li>
-                    <li>Servicios</li>
+                    <li class="active">Inicio</li>
+                    <li><a href="#acercade"> Acerca de </a></li>
+                    <li><a href="#servicios">Servicios</a></li>
                     <li>Portafolio</li>
                     <li>Contacto</li>
                 </ul>
             </nav>
+
+            <section class="container" id="contenido">
+
+                <span class="inicio">Hola !</span>
+                <h2 class="nombre"><span class="bold">Soy</span> Cesar's Pinedo Olivera</h2>
+                <p class="parrafo">Soy <span class="bold"> desarrollador web </span>orientado principalmente a <span
+                        class="bold">BackEnd</span> con experiencia de más de 2 años.
+                    En mi experiencia he creado sistemas personalizados para empresas pequeñas
+                    o medianas, aplicaciones móviles y trabajé en diferentes proyectos como Freelance ...</p>
+
+                <img src="/Cesars/assets/img/iconfb.png" alt="">
+                <img src="/Cesars/assets/img/icongithub.png" alt="">
+                <img src="/Cesars/assets/img/iconpinterest.png" alt="">
+                <img src="/Cesars/assets/img/iconlinkedin.png" alt="">
+                <img src="/Cesars/assets/img/iconinsta.png" alt="">
+
+            </section>
         </header>
-        <section id="seccion">
+        <section class=" section-bg-gray" id="acercade">
+            <div class="row container">
+                <article class="acerca-item1">
+                    <img src="/Cesars/assets/img/hero.png" alt="">
+                </article>
 
-            <h1>Hola !</h1>
+                <article class="acerca-item2">
+                    <h2 class="subtitle">Acerca de</h2>
+                    <hr class="line">
+                    </hr>
+                    <h3>Soy Egresado de Desarrollo de
+                        Sistemas de Información</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum sint praesentium dolores mollitia
+                        provident officia sit beatae hic quis delectus repudiandae modi ducimus et voluptates, placeat
+                        magnam tempore iste facere, neque cum, repellat eaque laboriosam maiores. Quod odit deserunt
+                        vitae eum et soluta ducimus quia optio voluptatem asperiores, aliquam architecto.</p>
+                    <section class="items-acerca">
+                        <article>
+                            <img src="/Cesars/assets/img/iconlocation.png" alt="">
+                            <span>Av Horacio Urteaga 1039 Lima,Perú</span>
+                        </article>
+                        <article>
+                            <img src="/Cesars/assets/img/iconemail.png" alt="">
+                            <span>cpinedo428@gmail.com</span>
+                        </article>
+                        <article>
+                            <img src="/Cesars/assets/img/iconphone.png" alt="">
+                            <span>+51 941289111</span>
+                        </article>
+                        <article>
+                            <img src="/Cesars/assets/img/iconcalendar.png" alt="">
+                            <span>11/11/1996</span>
+                        </article>
 
-            <h2><span class="bold">Soy</span> Cesar's Pinedo Olivera</h2>
+                    </section>
+                    <hr>
+                    <button class="btn-descargar-cv">Descargar CV</button>
+            </div>
+
+
+        </section>
+        <section class="section-bg-gray" id="servicios">
+            <div class="container-flex">
+
+                <!--<span class="btn-title">¿Qué Hago?</span>-->
+
+                <h2 class="subtitle middle">Mis Servicios</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem ab reprehenderit quod corrupti porro
+                    ratione, maiores deserunt officiis qui exercitationem sit necessitatibus dicta repudiandae, aliquam
+                    quos aperiam consequuntur blanditiis quis.</p>
+                <hr class="line2">
+            </div>
+            <div class="items-servicios">
+                <article>
+                    <ul>
+                        <li><img src="/Cesars/assets/img/imgphone.png" alt=""></li>
+                        <li><label for="">Desarrollo Movil Android</label></li>
+                    </ul>
+                </article>
+                <article>
+                    <ul>
+                        <li><img src="/Cesars/assets/img/imgdesktop.png" alt=""></li>
+                        <li><label for="">Desarrollo Desktop</label></li>
+                    </ul>
+                </article>
+                <article>
+                    <ul>
+                        <li><img src="/Cesars/assets/img/imgweb.png" alt=""></li>
+                        <li><label for="">Desarrollo Web</label></li>
+                    </ul>
+                </article>
+
+            </div>
+
+        </section>
+        <section class="section-bg-green">
+
+        </section>
+
+        <section class="section-bg-contactame" id="contactanme">
+
         </section>
     </main>
 
     <footer>
-
+        <p>Cesar's Pinedo 2020 © All Rights Reserved</p>
     </footer>
+    <script>
+        var mybutton = document.getElementById("btnVolver");
+
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
 </body>
 
 </html>
