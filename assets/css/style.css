@@ -31,7 +31,7 @@ html body{
 }
  
 main{
-    background-image: url("../img/fondoheader.png");
+    background-image: url("/Cesars/assets/img/fondoheader.png");
     /*width: 100%;*/
     height: 700px;
     
