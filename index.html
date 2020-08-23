@@ -22,8 +22,8 @@
                     <li class="active">Inicio</li>
                     <li><a href="#acercade"> Acerca de </a></li>
                     <li><a href="#servicios">Servicios</a></li>
-                    <li>Portafolio</li>
-                    <li>Contacto</li>
+                    <li><a href="#portafolio">Portafolio</a></li>
+                    <li><a href="#contactanme">Contacto</a></li>                    
                 </ul>
             </nav>
 
@@ -80,7 +80,8 @@
 
                     </section>
                     <hr>
-                    <button class="btn-descargar-cv"  onclick="window.open('/Cesars/assets/CesarsCV.pdf', '_blank');" >Descargar CV</button>
+                    <button class="btn-descargar-cv"
+                        onclick="window.open('/Cesars/assets/CesarsCV.pdf', '_blank');">Descargar CV</button>
             </div>
 
 
@@ -119,12 +120,33 @@
             </div>
 
         </section>
-        <section class="section-bg-green">
+        <!--<section class="section-bg-green">
 
-        </section>
+        </section>-->
 
-        <section class="section-bg-contactame" id="contactanme">
+        <section class="section-bg-fondo" id="contactanme">
+            <div class="container-50">
+                <!--                <span class="subtitle">Contáctame</span>
+                <hr class="line">-->
+                <h2 class="subtitle">Contáctame</h2>
+                <hr class="line">
 
+                <article class="formulario-contact">
+                    <div class="col-left">
+                        <label for="correo">Correo :</label>
+                        <input class="form-input" type="text" name="correo" id="correo"/>
+
+                        <label for="correo">Asunto :</label>
+                        <input class="form-input" type="text" name="correo" id="correo"/>
+                    </div>
+                    <div class="col-right"> 
+                        <label for="correo">Mensaje :</label>
+                        <textarea class="form-input-text" type="text" name="correo" id="correo" cols="5"></textarea>
+                        <button class="form-btn">Enviar</button>
+                    </div>
+                </article>
+
+            </div>
         </section>
     </main>
 
