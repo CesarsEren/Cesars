@@ -21,9 +21,36 @@
 }
 /*[ LG TABLET HORIZONTAL]*/
 @media (max-width: 1024px) {
+
+    #acercade .acerca-item1 img{
+        height: 500px;
+        width: 325px;
+    }
+    /*.acerca-item2 h3{ 
+    }*/
+    #acercade .container {
+        width: 90%;
+        margin: auto;
+    }
+    
+    #acercade .acerca-item2 p {
+        color: var(--color-assets);
+        font-size: 16px;
+        width: 80%;
+        font-weight: 400;
+    }
 }
 /*BIG  CELULAR LANDSCAPE */
 @media (max-width: 823px) and (min-width: 770px) {
+    #acercade .acerca-item1{
+        display: none;
+    }
+    #acercade .acerca-item2 {
+        color: var(--color-assets);
+        font-size: 16px;
+        width: 100%;
+        font-weight: 400;
+    }
 }
 /*[ MD TABLET VERTICAL]*/
 @media (max-width: 768px) {
