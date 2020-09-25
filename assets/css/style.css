@@ -151,13 +151,13 @@ header {
     font-size: 40px;
     width: 70%;
     font-weight: 500;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 .acerca-item2 p {
     color: var(--color-assets);
     font-size: 16px;
-    width: 90%;
+    width: 100%;
     font-weight: 400;
 }
 
@@ -169,6 +169,8 @@ header {
 .line {
     margin-top: -20px;
     border: 4.5px solid var(--color-assets);
+    color:var(--color-assets);
+    background-color: var(--color-assets);
     width: 15%;
     float: left;
 }
@@ -176,6 +178,8 @@ header {
 .line2 {
     margin-top: -20px;
     border: 4.5px solid var(--color-secundario);
+    color:var(--color-secundario);
+    background-color: var(--color-secundario);
     width: 15%;
     float: center;
 }
