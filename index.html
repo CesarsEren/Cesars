@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cesars</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style-mq.css">
     <link rel="icon" href="/Cesars/assets/img/logoico.ico" type="image/x-icon" />
 </head>
 
@@ -63,8 +64,11 @@
                         y en planilla desde el 2 de Diciembre del 2019 hasta la actualidad, conforme paso el tiempo fue
                         aprendiendo mas cosas y estoy en busca de un trabajo con nuevos retos además de que me ofrezca
                         una linea de carrera para poder seguir aprendiendo.
+                        <br>
+
                     </p>
-                    <ol>
+
+                    <ol id="skills" style="display:none">
                         <li> Desarrollé modificaciones a Facturación Electrónica.</li>
                         <li> Inclusion de método de pago Visa</li>
                         <li> Cloud de AWS(EC2,route53,S3,Aurora)</li>
@@ -79,6 +83,7 @@
                         <li> Android</li>
                         <li> Dispuesto a aprender los requerimientos o tecnología necesaria</li>
                     </ol>
+                    <span id="vermas"><a href="#acercade">ver más</a></span>
 
                     <section class="items-acerca">
                         <article>
@@ -108,13 +113,9 @@
         </section>
         <section class="section-bg-gray" id="servicios">
             <div class="container-flex">
-
                 <!--<span class="btn-title">¿Qué Hago?</span>-->
-
                 <h2 class="subtitle middle">Mis Servicios</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem ab reprehenderit quod corrupti porro
-                    ratione, maiores deserunt officiis qui exercitationem sit necessitatibus dicta repudiandae, aliquam
-                    quos aperiam consequuntur blanditiis quis.</p>
+                <p>Desarrollo de software a medidas para Pequeñas y Medianas Empresas</p>
                 <hr class="line2">
             </div>
             <div class="items-servicios">
@@ -175,7 +176,22 @@
     </footer>
     <script>
         var mybutton = document.getElementById("btnVolver");
-
+        var vermas = document.getElementById("vermas");
+        var skills = document.getElementById("skills");
+        var __activo = false;
+        window.onload = function () {
+            vermas.addEventListener("click", function () {
+                if (__activo) {
+                    skills.style.display = "none";
+                    vermas.innerHTML = "<a href='#acercade'>ver más</a>";
+                    __activo = false;
+                } else {
+                    __activo = true;
+                    skills.style.display = "block";
+                    vermas.innerHTML = "<a href='#acercade'>ver menos</a>";
+                }
+            })
+        }
         window.onscroll = function () { scrollFunction() };
 
         function scrollFunction() {

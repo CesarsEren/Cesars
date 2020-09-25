@@ -1,0 +1,43 @@
+/* [ XL Laptop] */
+@media (max-width: 1366px) {
+/*@media (max-width: 1400px) {*/
+     #acercade .acerca-item1 img{
+        height: 550px;
+        width: 375px;
+    }
+    /*.acerca-item2 h3{ 
+    }*/
+    #acercade .container {
+        width: 90%;
+        margin: auto;
+    }
+    
+    #acercade .acerca-item2 p {
+        color: var(--color-assets);
+        font-size: 16px;
+        width: 80%;
+        font-weight: 400;
+    }
+}
+/*[ LG TABLET HORIZONTAL]*/
+@media (max-width: 1024px) {
+}
+/*BIG  CELULAR LANDSCAPE */
+@media (max-width: 823px) and (min-width: 770px) {
+}
+/*[ MD TABLET VERTICAL]*/
+@media (max-width: 768px) {
+}
+/*[ CELULAR LANDSCAPE]*/
+@media (max-width: 736px) {
+}
+/* SMALL CELULAR LANDSCAPE */
+@media (max-width: 568px) {
+}
+/*[ CELULAR PORTRAIT ]*/
+@media (max-width: 480px) {
+}
+
+/*[ SMALL CELULAR PORTRAIT ]*/
+@media (max-width: 360px) {
+}
