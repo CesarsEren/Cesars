@@ -69,13 +69,13 @@ header {
 
 header {
   width: 100%;
-  height: 700px;
+  height: 700px; 
   background: linear-gradient(
       107deg,
       rgba(3, 101, 42, 0.15) 0%,
       rgba(1, 26, 11, 0.2) 100%
     ),
-    url("/Cesars/assets/img/fondoheader.png");
+    url("/Cesars/assets/img/fondoheader.png") ; 
 }
 
 #contenido {
@@ -242,6 +242,10 @@ header {
   margin: auto;
   padding-top: 40px;
 }
+#servicios p {
+  font-size: 25px;
+  font-style: italic;
+}
 
 .container-flex {
   width: 80%;
@@ -297,12 +301,11 @@ header {
 }
 
 .items-servicios article {
-  margin-top: 20px; 
-   
+  margin-top: 20px;
 }
 
 .items-servicios img {
-  width: 90%; 
+  width: 90%;
   margin: auto;
 }
 
