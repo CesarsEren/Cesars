@@ -115,7 +115,7 @@ header {
   font-size: 40px;
 }
 
-.parrafo {
+.parrafo { 
   color: var(--color-font);
   font-weight: normal;
   font-size: 16px;
@@ -164,6 +164,9 @@ header {
 }
 
 .acerca-item2 p {
+  /*text-indent: 30px;*/
+  text-align: justify;
+  text-justify: inter-word;
   color: var(--color-assets);
   font-size: 16px;
   width: 90%;
