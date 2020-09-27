@@ -172,7 +172,11 @@ header {
   width: 90%;
   font-weight: 400;
 }
-
+.acerca-item2 a{
+  text-decoration: none;
+  color: var(--color-assets);
+  font-weight: bold;
+}
 .subtitle {
   color: var(--color-assets);
   font-size: 40px;
