@@ -29,7 +29,7 @@
         rgba(3, 101, 42, 0.15) 0%,
         rgba(1, 26, 11, 0.2) 100%
       ),
-      url("/Cesars/assets/img/fondoheaderv2.png");
+      url("/assets/img/fondoheaderv2.png");
   }
   .nav ul li {
     font-size: 16px;
