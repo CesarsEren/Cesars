@@ -18,6 +18,10 @@
     <link rel="icon" href="/assets/img/logoico.ico" type="image/x-icon" />
     <link href="https://cesarspinedo.com/assets/img/hero.png" rel="image_src" />
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="/assets/css/aos.css">
+    <script src="/assets/js/aos.js"></script>
+    <!--<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>-->
 </head>
 
 <body>
@@ -59,25 +63,27 @@
             <section class="container" id="contenido">
 
                 <span class="inicio">Hola !</span>
-                <h1 class="nombre"><span class="bold">Soy</span> Cesar's Pinedo Olivera</h2>
-                    <p class="parrafo">Soy <span class="bold"> desarrollador web </span>orientado principalmente a <span
-                            class="bold">BackEnd</span> con experiencia de más de 2 años.
+                <h1 class="nombre" data-aos="fade-left"><span class="bold">Soy</span> Cesar's Pinedo Olivera</h2>
+                    <p class="parrafo" data-aos="fade-left" data-aos-delay="150">Soy <span class="bold"> desarrollador
+                            web </span>orientado principalmente a <span class="bold">BackEnd</span> con experiencia de
+                        más de 2 años.
                         En mi experiencia he creado sistemas personalizados para empresas pequeñas
                         o medianas, aplicaciones móviles y trabajé en diferentes proyectos como Freelance ...</p>
-
-                    <a href="https://www.facebook.com/Cesars-Pinedo-103112268078514" target="_blank">
-                        <img title="facebook" src="/assets/img/iconfb.png" alt="icono facebook"></a>
-                    <a href="https://github.com/CesarsEren/" target="_blank">
-                        <img title="github" src="/assets/img/icongithub.png" alt="icono github"></a>
-                    <a href="https://www.pinterest.es/cesarspinedooli/_saved/" target="_blank">
-                        <img title="pinterest" src="/assets/img/iconpinterest.png" alt="icono pinterest"></a>
-                    <a href="https://www.linkedin.com/in/cesars-jose-manuel-pinedo-olivera-68120613a/" target="_blank">
-                        <img title="linkedin" src="/assets/img/iconlinkedin.png" alt="icono linkedin"></a>
-                    <a href="https://www.instagram.com/cesarspinedo/?hl=es-la" target="_blank">
-                        <img title="instagram" src="/assets/img/iconinsta.png" alt="icono instagram"></a>
-                    <a href="https://api.whatsapp.com/send?phone=51941289111&text=Hola,estoy interesado en una cotización para un software"
-                        target="_blank">
-                        <img title="whatsapp" src="/assets/img/iconwhat.png" alt="icono whatsapp"></a>
+                    <div data-aos="fade-up" " data-aos-delay=" 300">
+                        <a href="https://www.facebook.com/Cesars-Pinedo-103112268078514" target="_blank">
+                            <img title="facebook" src="/assets/img/iconfb.png" alt="icono facebook"></a>
+                        <a href="https://github.com/CesarsEren/" target="_blank">
+                            <img title="github" src="/assets/img/icongithub.png" alt="icono github"></a>
+                        <a href="https://www.pinterest.es/cesarspinedooli/_saved/" target="_blank">
+                            <img title="pinterest" src="/assets/img/iconpinterest.png" alt="icono pinterest"></a>
+                        <a href="https://www.linkedin.com/in/cesars-jose-manuel-pinedo-olivera-68120613a/"
+                            target="_blank">
+                            <img title="linkedin" src="/assets/img/iconlinkedin.png" alt="icono linkedin"></a>
+                        <a href="https://www.instagram.com/cesarspinedo/?hl=es-la" target="_blank">
+                            <img title="instagram" src="/assets/img/iconinsta.png" alt="icono instagram"></a>
+                        <a href="https://api.whatsapp.com/send?phone=51941289111&text=Hola,estoy interesado en una cotización para un software"
+                            target="_blank">
+                            <img title="whatsapp" src="/assets/img/iconwhat.png" alt="icono whatsapp"></a></div>
             </section>
         </header>
         <section class=" section-bg-gray" id="acercade">
@@ -86,7 +92,7 @@
                     <img title="hero" src="/assets/img/hero.png" alt="personaje">
                 </article>
 
-                <article class="acerca-item2">
+                <article class="acerca-item2" data-aos="fade-left" data-aos-delay="600">
                     <h2 class="subtitle">Acerca de</h2>
                     <hr class="line">
                     </hr>
@@ -158,19 +164,19 @@
                 <hr class="line2">
             </div>
             <div class="items-servicios">
-                <article>
+                <article data-aos="flip-right">
                     <ul>
                         <li><img title="android" src="/assets/img/imgphone.png" alt="Movil"></li>
                         <li><label for="">Desarrollo Movil Android</label></li>
                     </ul>
                 </article>
-                <article>
+                <article data-aos="flip-right">
                     <ul>
                         <li><img title="escritorio" src="/assets/img/imgdesktop.png" alt="Escritorio"></li>
                         <li><label for="">Desarrollo Desktop</label></li>
                     </ul>
                 </article>
-                <article>
+                <article data-aos="flip-right">
                     <ul>
                         <li><img title="web" src="/assets/img/imgweb.png" alt="Web"></li>
                         <li><label for="">Desarrollo Web</label></li>
@@ -218,6 +224,7 @@
         var skills = document.getElementById("skills");
         var __activo = false;
         window.onload = function () {
+            AOS.init();
             vermas.addEventListener("click", function () {
                 if (__activo) {
                     skills.style.display = "none";
@@ -265,6 +272,7 @@
             a.appendChild(r);
         })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
     </script>
+
 </body>
 
 </html>
