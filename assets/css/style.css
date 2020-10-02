@@ -244,6 +244,13 @@ header {
   border: none;
   font-size: 20px;
 }
+.btn-descargar-cv:hover{
+  background-image: linear-gradient(
+    to left,
+    var(--color-principal),
+    var(--color-secundario)
+  );
+}
 
 #servicios {
   margin: auto;
