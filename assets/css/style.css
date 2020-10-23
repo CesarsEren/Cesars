@@ -15,6 +15,10 @@ html body {
   margin: 0px;
 }
 
+.container-90 {
+  width: 90%;
+  margin: auto;
+}
 .container {
   width: 70%;
   margin: auto;
@@ -147,6 +151,37 @@ header {
   margin-bottom: 50px;
 }
 
+.blog-item-item2
+{
+  width: 50%;
+  
+}
+.blog-item-item1
+{
+  width: 50%;
+  text-align: end;
+  padding: 40px;
+}
+
+
+.blog-item-item2 h3 {
+  color: var(--color-secundario);
+  font-size: 40px;
+  width: 70%;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.blog-item-item2 p {
+  /*text-indent: 30px;*/
+  text-align: justify;
+  text-justify: inter-word;
+  color: var(--color-assets);
+  font-size: 16px;
+  width: 70%;
+  font-weight: 400;
+}
+
 .acerca-item1 {
   width: 40%;
 }
@@ -180,6 +215,15 @@ header {
 .subtitle {
   color: var(--color-assets);
   font-size: 40px;
+}
+
+.line3 {
+  margin-top: -30px;
+  border: .2px solid var(--color-assets);
+  color: var(--color-assets);
+  background-color: var(--color-assets);
+  width: 70%;
+  float: left;
 }
 
 .line {
@@ -251,6 +295,39 @@ header {
     var(--color-secundario)
   );
 }
+
+
+
+
+
+
+.btn-adobe {
+  cursor: pointer;
+  color: #FF7DFF;
+  /*background: linear-gradient(107deg, rgba(3,101,42,0.15) 0%, rgba(1, 26, 11, 0.2) 100%);*/
+  margin-top: 10px;
+  /*background-color: var(--color-principal);*/
+  background-image: linear-gradient(
+    to right,
+    #470137,#470137
+  );
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 50px;
+  border: none;
+  font-size: 20px;
+}
+.btn-adobe:hover{
+  background-image: linear-gradient(
+    to left,
+    #470137,
+    #470137
+  );
+}
+
+
 
 #servicios {
   margin: auto;
