@@ -533,20 +533,28 @@ footer p {
   opacity: 0.8;
 }
 
-[class^="icon"] {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 
-.icon-list2:before {
-  content: "\e600";
-}
-
-#click {
-  display: none;
+nav .menu-btn i {
+  display: block;
 }
 .menu-btn {
-  display: none;
+  font-size: 40px;
+  margin-top: 20px;
+  display: block;
+  float: right;
 }
+
+.menu-btn2 {
+  font-size: 40px;
+  margin-top: 20px;
+  display: block;
+  float: right;
+}
+
+#click:checked ~ .menu-btn i:before {
+  content: "\f00d";
+}
+
 /*
 #check{
     display: none;
