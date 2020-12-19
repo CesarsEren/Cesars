@@ -73,13 +73,13 @@ header {
 
 header {
   width: 100%;
-  height: 700px; 
+  height: 700px;
   background: linear-gradient(
       107deg,
       rgba(3, 101, 42, 0.15) 0%,
       rgba(1, 26, 11, 0.2) 100%
     ),
-    url("/assets/img/fondoheader.png") ; 
+    url("/assets/img/fondoheader.png");
 }
 
 #contenido {
@@ -119,7 +119,7 @@ header {
   font-size: 40px;
 }
 
-.parrafo { 
+.parrafo {
   color: var(--color-font);
   font-weight: normal;
   font-size: 16px;
@@ -151,18 +151,14 @@ header {
   margin-bottom: 50px;
 }
 
-.blog-item-item2
-{
+.blog-item-item2 {
   width: 50%;
-  
 }
-.blog-item-item1
-{
+.blog-item-item1 {
   width: 50%;
   text-align: end;
   padding: 40px;
 }
-
 
 .blog-item-item2 h3 {
   color: var(--color-secundario);
@@ -207,7 +203,7 @@ header {
   width: 90%;
   font-weight: 400;
 }
-.acerca-item2 a{
+.acerca-item2 a {
   text-decoration: none;
   color: var(--color-assets);
   font-weight: bold;
@@ -219,7 +215,7 @@ header {
 
 .line3 {
   margin-top: -30px;
-  border: .2px solid var(--color-assets);
+  border: 0.2px solid var(--color-assets);
   color: var(--color-assets);
   background-color: var(--color-assets);
   width: 70%;
@@ -288,7 +284,7 @@ header {
   border: none;
   font-size: 20px;
 }
-.btn-descargar-cv:hover{
+.btn-descargar-cv:hover {
   background-image: linear-gradient(
     to left,
     var(--color-principal),
@@ -296,21 +292,13 @@ header {
   );
 }
 
-
-
-
-
-
 .btn-adobe {
   cursor: pointer;
-  color: #FF7DFF;
+  color: #ff7dff;
   /*background: linear-gradient(107deg, rgba(3,101,42,0.15) 0%, rgba(1, 26, 11, 0.2) 100%);*/
   margin-top: 10px;
   /*background-color: var(--color-principal);*/
-  background-image: linear-gradient(
-    to right,
-    #470137,#470137
-  );
+  background-image: linear-gradient(to right, #470137, #470137);
   padding-right: 50px;
   padding-left: 50px;
   padding-top: 15px;
@@ -319,15 +307,9 @@ header {
   border: none;
   font-size: 20px;
 }
-.btn-adobe:hover{
-  background-image: linear-gradient(
-    to left,
-    #470137,
-    #470137
-  );
+.btn-adobe:hover {
+  background-image: linear-gradient(to left, #470137, #470137);
 }
-
-
 
 #servicios {
   margin: auto;
@@ -533,7 +515,6 @@ footer p {
   opacity: 0.8;
 }
 
-
 nav .menu-btn i {
   display: block;
 }
@@ -555,7 +536,19 @@ nav .menu-btn i {
   content: "\f00d";
 }
 
-/*
-#check{
-    display: none;
-}*/
+[class^="icon"] {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.icon-list2:before {
+  content: "\e600";
+}
+
+#click {
+  display: none;
+}
+
+.menu-btn {
+  display: none;
+  content: "\f00d";
+}
