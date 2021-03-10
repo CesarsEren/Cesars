@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Cesar's Pinedo Olivera" />
+    <meta property="og:description" content="Hola,realizo sistemas en android, web y escritorio, en java,php,node" />
+    <meta name="description"
+        content="En mis casi 2 años de experiencia desarrollé softwares personalizados para pequeñas y mediadas empresas." />
+    <meta property="og:image" content="https://cesarspinedo.com/assets/img/fondoheader.png" />
+    <meta property="og:url" content="https://cesarspinedo.com/" />
+    <meta property="og:type" content="image.png" />
+
+    <title>Cesar's Pinedo</title>
+    <meta name="p:domain_verify" content="51eaacc08c2bcc029fddfa7fbe18756f" />
+
+    <link rel="canonical" href="https://cesarspinedo.com/" />
+    <link rel="icon" href="/assets/img/logoico.ico" type="image/x-icon" />
+    <link href="https://cesarspinedo.com/assets/img/fondoheader.png" rel="image_src" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <!--div class="elfsight-app-b5968430-a8b9-45d0-874a-362f1d64c35d"></div-->
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .line {
+            background: #2e2d2d;
+            width: 200px;
+            height: 5px;
+            margin-left: 0;
+        }
+
+        .line2 {
+            background: #2e2d2d;
+            width: 220px;
+            height: 5px;
+        }
+
+        body{
+            background: radial-gradient(#b000 15%, transparent 16%) 0 0,
+                radial-gradient(#a000 15%, transparent 16%) 8px 8px,
+                radial-gradient(rgba(207, 204, 204, 0.712) 15%, transparent 20%) 0 1px,
+                radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
+            background-color: white;
+            background-size: 5px 5px;
+        } .active{
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- Image and text -->
+        <nav class="navbar  navbar-expand-lg navbar-light bg-white ">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="/assets/img/logov2.png" width="150" height="90" class="d-inline-block align-top" alt="">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-link" href="/">Inicio</a>
+                        <a class="nav-link" href="/#acercade">Acerca de</a>
+                        <a class="nav-link" href="/#servicios">Servicios</a>
+                        <a class="nav-link active" href="/portafolio.html">Portafolio</a>
+                        <a class="nav-link" href="/blog.html">Blog</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+
+    </header>
+    <main>
+        <section class="section pt-5 pb-5">
+            <div class="container ">
+                <ul class="nav nav-pills   nav-fill mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+                            aria-controls="pills-home" aria-selected="true">Empresa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+                            aria-controls="pills-profile" aria-selected="false">Freelancer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+                            aria-controls="pills-contact" aria-selected="false">Proyectos Personales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+                            aria-controls="pills-contact" aria-selected="false">Mini Proyectos</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                        aria-labelledby="pills-home-tab">
+
+                        <div class="row">
+                            <div class="col-lg-4  col-md-6 pt-4 ">
+                                <div class="card shadow-sm p-3 mb-2 bg-white rounded">
+                                    <img class="card-img-top" src="/assets/img/personal.png" alt="Card image cap">
+                                    <div class="card-header">
+                                        Página web personal
+                                    </div>
+                                    <div class="card-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, fuga.
+                                        </p>
+                                        <strong>Técnologías usadas</strong>
+                                        <div class="row container pt-2">
+                                            <i class="text-dark fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-md-6 pt-4 ">
+                                <div class="card shadow-sm p-3 mb-2 bg-white rounded">
+                                    <img class="card-img-top" src="/assets/img/personal.png" alt="Card image cap">
+                                    <div class="card-header">
+                                        Página web personal
+                                    </div>
+                                    <div class="card-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, fuga.
+                                        </p>
+                                        <strong>Técnologías usadas</strong>
+                                        <div class="row container pt-2">
+                                            <i class="text-dark fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-md-6 pt-4 ">
+                                <div class="card shadow-sm p-3 mb-2 bg-white rounded">
+                                    <img class="card-img-top" src="/assets/img/personal.png" alt="Card image cap">
+                                    <div class="card-header">
+                                        Página web personal
+                                    </div>
+                                    <div class="card-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, fuga.
+                                        </p>
+                                        <strong>Técnologías usadas</strong>
+                                        <div class="row container pt-2">
+                                            <i class="text-dark fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-md-6 pt-4 ">
+                                <div class="card shadow-sm p-3 mb-2 bg-white rounded">
+                                    <img class="card-img-top" src="/assets/img/personal.png" alt="Card image cap">
+                                    <div class="card-header">
+                                        Página web personal
+                                    </div>
+                                    <div class="card-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, fuga.
+                                        </p>
+                                        <strong>Técnologías usadas</strong>
+                                        <div class="row container pt-2">
+                                            <i class="text-dark fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-md-6 pt-4 ">
+                                <div class="card shadow-sm p-3 mb-2 bg-white rounded">
+                                    <img class="card-img-top" src="/assets/img/personal.png" alt="Card image cap">
+                                    <div class="card-header">
+                                        Página web personal
+                                    </div>
+                                    <div class="card-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, fuga.
+                                        </p>
+                                        <strong>Técnologías usadas</strong>
+                                        <div class="row container pt-2">
+                                            <i class="text-dark fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-md-6 pt-4 ">
+                                <div class="card shadow-sm p-3 mb-2 bg-white rounded">
+                                    <img class="card-img-top" src="/assets/img/personal.png" alt="Card image cap">
+                                    <div class="card-header">
+                                        Página web personal
+                                    </div>
+                                    <div class="card-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, fuga.
+                                        </p>
+                                        <strong>Técnologías usadas</strong>
+                                        <div class="row container pt-2">
+                                            <i class="text-dark fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <div class="row">
+                            <div class="col-lg-4  col-md-6 pt-4 ">
+                                <div class="card shadow-sm p-3 mb-2 bg-white rounded">
+                                    <img class="card-img-top" src="/assets/img/personal.png" alt="Card image cap">
+                                    <div class="card-header">
+                                        Página web personal
+                                    </div>
+                                    <div class="card-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, fuga.
+                                        </p>
+                                        <strong>Técnologías usadas</strong>
+                                        <div class="row container pt-2">
+                                            <i class="text-dark fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-md-6 pt-4 ">
+                                <div class="card shadow-sm p-3 mb-2 bg-white rounded">
+                                    <img class="card-img-top" src="/assets/img/personal.png" alt="Card image cap">
+                                    <div class="card-header">
+                                        Página web personal
+                                    </div>
+                                    <div class="card-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, fuga.
+                                        </p>
+                                        <strong>Técnologías usadas</strong>
+                                        <div class="row container pt-2">
+                                            <i class="text-dark fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-md-6 pt-4 ">
+                                <div class="card shadow-sm p-3 mb-2 bg-white rounded">
+                                    <img class="card-img-top" src="/assets/img/personal.png" alt="Card image cap">
+                                    <div class="card-header">
+                                        Página web personal
+                                    </div>
+                                    <div class="card-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, fuga.
+                                        </p>
+                                        <strong>Técnologías usadas</strong>
+                                        <div class="row container pt-2">
+                                            <i class="text-dark fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-md-6 pt-4 ">
+                                <div class="card shadow-sm p-3 mb-2 bg-white rounded">
+                                    <img class="card-img-top" src="/assets/img/personal.png" alt="Card image cap">
+                                    <div class="card-header">
+                                        Página web personal
+                                    </div>
+                                    <div class="card-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur,
+                                            fuga.
+                                        </p>
+                                        <strong>Técnologías usadas</strong>
+                                        <div class="row container pt-2">
+                                            <i class="text-dark fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-md-6 pt-4 ">
+                                <div class="card shadow-sm p-3 mb-2 bg-white rounded">
+                                    <img class="card-img-top" src="/assets/img/personal.png" alt="Card image cap">
+                                    <div class="card-header">
+                                        Página web personal
+                                    </div>
+                                    <div class="card-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur,
+                                            fuga.
+                                        </p>
+                                        <strong>Técnologías usadas</strong>
+                                        <div class="row container pt-2">
+                                            <i class="text-dark fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-md-6 pt-4 ">
+                                <div class="card shadow-sm p-3 mb-2 bg-white rounded">
+                                    <img class="card-img-top" src="/assets/img/personal.png" alt="Card image cap">
+                                    <div class="card-header">
+                                        Página web personal
+                                    </div>
+                                    <div class="card-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur,
+                                            fuga.
+                                        </p>
+                                        <strong>Técnologías usadas</strong>
+                                        <div class="row container pt-2">
+                                            <i class="text-dark fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                        <div class="row">
+                            <div class="col-lg-4  col-md-6 pt-4 ">
+                                <div class="card shadow-sm p-3 mb-2 bg-white rounded">
+                                    <img class="card-img-top" src="/assets/img/personal.png" alt="Card image cap">
+                                    <div class="card-header">
+                                        Página web personal
+                                    </div>
+                                    <div class="card-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur,
+                                            fuga.
+                                        </p>
+                                        <strong>Técnologías usadas</strong>
+                                        <div class="row container pt-2">
+                                            <i class="text-dark fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-md-6 pt-4 ">
+                                <div class="card shadow-sm p-3 mb-2 bg-white rounded">
+                                    <img class="card-img-top" src="/assets/img/personal.png" alt="Card image cap">
+                                    <div class="card-header">
+                                        Página web personal
+                                    </div>
+                                    <div class="card-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur,
+                                            fuga.
+                                        </p>
+                                        <strong>Técnologías usadas</strong>
+                                        <div class="row container pt-2">
+                                            <i class="text-dark fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-md-6 pt-4 ">
+                                <div class="card shadow-sm p-3 mb-2 bg-white rounded">
+                                    <img class="card-img-top" src="/assets/img/personal.png" alt="Card image cap">
+                                    <div class="card-header">
+                                        Página web personal
+                                    </div>
+                                    <div class="card-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur,
+                                            fuga.
+                                        </p>
+                                        <strong>Técnologías usadas</strong>
+                                        <div class="row container pt-2">
+                                            <i class="text-dark fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-md-6 pt-4 ">
+                                <div class="card shadow-sm p-3 mb-2 bg-white rounded">
+                                    <img class="card-img-top" src="/assets/img/personal.png" alt="Card image cap">
+                                    <div class="card-header">
+                                        Página web personal
+                                    </div>
+                                    <div class="card-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur,
+                                            fuga.
+                                        </p>
+                                        <strong>Técnologías usadas</strong>
+                                        <div class="row container pt-2">
+                                            <i class="text-dark fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-md-6 pt-4 ">
+                                <div class="card shadow-sm p-3 mb-2 bg-white rounded">
+                                    <img class="card-img-top" src="/assets/img/personal.png" alt="Card image cap">
+                                    <div class="card-header">
+                                        Página web personal
+                                    </div>
+                                    <div class="card-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur,
+                                            fuga.
+                                        </p>
+                                        <strong>Técnologías usadas</strong>
+                                        <div class="row container pt-2">
+                                            <i class="text-dark fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4  col-md-6 pt-4 ">
+                                <div class="card shadow-sm p-3 mb-2 bg-white rounded">
+                                    <img class="card-img-top" src="/assets/img/personal.png" alt="Card image cap">
+                                    <div class="card-header">
+                                        Página web personal
+                                    </div>
+                                    <div class="card-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur,
+                                            fuga.
+                                        </p>
+                                        <strong>Técnologías usadas</strong>
+                                        <div class="row container pt-2">
+                                            <i class="text-dark fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                            <i class="text-dark ml-2 fab fa-2x fa-facebook"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-success">
+        <div class="  pt-2 pb-2">
+            <div class="container">
+                <div class="text-center text-white">Cesar's Pinedo 2020 © All Rights Reserved</div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179065355-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-179065355-1');
+    </script>
+    <!-- Hotjar Tracking Code for www.cesarspinedo.com -->
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+            h._hjSettings = { hjid: 2013670, hjsv: 6 };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script'); r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+</body>
+
+</html>
