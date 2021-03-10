@@ -1,238 +1,285 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="Cesar's Pinedo Olivera" />
-    <meta property="og:description" content="Hola,realizo sistemas en android, web y escritorio, en php" />
+    <meta property="og:description" content="Hola,realizo sistemas en android, web y escritorio, en java,php,node" />
     <meta name="description"
         content="En mis casi 2 años de experiencia desarrollé softwares personalizados para pequeñas y mediadas empresas." />
-    <meta property="og:image" content="https://cesarspinedo.com/assets/img/hero.png" />
+    <meta property="og:image" content="https://cesarspinedo.com/assets/img/hero.jpg" />
     <meta property="og:url" content="https://cesarspinedo.com/" />
     <meta property="og:type" content="image.png" />
-    <title>Cesar's Jose Manuel Pinedo Olivera</title>
+
+    <title>Cesar's Pinedo</title>
     <meta name="p:domain_verify" content="51eaacc08c2bcc029fddfa7fbe18756f" />
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/style-mq.css">
+
     <link rel="canonical" href="https://cesarspinedo.com/" />
     <link rel="icon" href="/assets/img/logoico.ico" type="image/x-icon" />
-    <link href="https://cesarspinedo.com/assets/img/hero.png" rel="image_src" />
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link rel="stylesheet" href="/assets/css/aos.css">
-    <script src="/assets/js/aos.js"></script>
+    <link href="https://cesarspinedo.com/assets/img/hero.jpg" rel="image_src" />
 
-    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-    <div class="elfsight-app-b5968430-a8b9-45d0-874a-362f1d64c35d"></div>
- 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <!--div class="elfsight-app-b5968430-a8b9-45d0-874a-362f1d64c35d"></div-->
+        
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        header {
+            width: 100%;
+            height: 700px;
+            background: linear-gradient(107deg,
+                    rgba(3, 101, 42, 0.15) 0%,
+                    rgba(1, 26, 11, 0.2) 100%),
+                url("/assets/img/fondoheader.png");
+        }
+
+        .line {
+            background: #2e2d2d;
+            width: 200px;
+            height: 5px;
+            margin-left: 0;
+        }
+
+        .line2 {
+            background: #2e2d2d;
+            width: 220px;
+            height: 5px;
+        }
+
+        @media (max-width: 1024px) {
+
+            header {
+                width: 100%;
+                height: 700px;
+                background: linear-gradient(107deg,
+                        rgba(3, 101, 42, 0.15) 0%,
+                        rgba(1, 26, 11, 0.2) 100%),
+                    url("/assets/img/fondoheaderv2.png");
+            }
+        }
+    </style>
 </head>
 
 <body>
-    <main>
-
-        <button onclick="topFunction()" id="btnVolver" title="Volver"><img title="volver" width="25px" height="25px" src="/assets/img/imgback.png"
-                alt="botton para volver"></button>
-        <header>
-            <nav class="nav">
-
-                <a href="/">
-                    <img title="logo" src="/assets/img/logo.png" alt="logo principal">
+    <header>
+        <!-- Image and text -->
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="/assets/img/logo.png" width="150" height="90" class="d-inline-block align-top" alt="">
                 </a>
 
-                <input type="checkbox" name="" id="click">
-                <label for="click" class="menu-btn">
-                    <i class="fas fa-bars"></i>
-                </label>
-
-                <ul id="menu-list">
-
-                    <li class="active"><a href="#inicio">Inicio</a></li>
-                    <li><a href="#acercade"> Acerca de </a></li>
-                    <li><a href="#servicios">Servicios</a></li>
-                    <li><a href="#portafolio">Portafolio</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li>
-                        <a class="menu-btn">
-                            <label for="click">
-                                <i class="fas fa-times"></i>
-                            </label>
-                        </a>
-                    </li>
-                </ul>
-
-            </nav>
-
-            <section class="container" id="contenido">
-
-                <span class="inicio">¡Hola!</span>
-                <h1 class="nombre" data-aos="fade-left"><span class="bold">Soy</span> Cesar's Pinedo Olivera</h2>
-                    <p class="parrafo" data-aos="fade-left" data-aos-delay="150">Soy <span class="bold"> desarrollador
-                            web </span>orientado principalmente a <span class="bold">BackEnd</span> con experiencia de
-                        más de 1 año en el rubro de Transportes.
-                        <br>
-                        Adicionalmente ,he creado sistemas personalizados para empresas pequeñas
-                        o medianas, aplicaciones móviles y también trabajé en diferentes proyectos como Freelancer
-                        ...
-                    </p>
-                    <div data-aos="fade-up" " data-aos-delay=" 300">
-                        <a href="https://www.facebook.com/Cesars-Pinedo-103112268078514" target="_blank">
-                            <img title="facebook" src="/assets/img/iconfb.png" alt="icono facebook"></a>
-                        <a href="https://github.com/CesarsEren/" target="_blank">
-                            <img title="github" src="/assets/img/icongithub.png" alt="icono github"></a>
-                        <a href="https://www.pinterest.es/cesarspinedooli/_saved/" target="_blank">
-                            <img title="pinterest" src="/assets/img/iconpinterest.png" alt="icono pinterest"></a>
-                        <a href="https://www.linkedin.com/in/cesars-jose-manuel-pinedo-olivera-68120613a/"
-                            target="_blank">
-                            <img title="linkedin" src="/assets/img/iconlinkedin.png" alt="icono linkedin"></a>
-                        <a href="https://www.instagram.com/cesarspinedo/?hl=es-la" target="_blank">
-                            <img title="instagram" src="/assets/img/iconinsta.png" alt="icono instagram"></a>
-                        <a href="https://api.whatsapp.com/send?phone=51941289111&text=Hola,estoy interesado en una cotización para un software"
-                            target="_blank">
-                            <img title="whatsapp" src="/assets/img/iconwhat.png" alt="icono whatsapp"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-link active" href="/">Inicio</a>
+                        <a class="nav-link" href="#acercade">Acerca de</a>
+                        <a class="nav-link" href="#servicios">Servicios</a>
+                        <a class="nav-link" href="#portafolio">Portafolio</a>
+                        <a class="nav-link" href="#blog">Blog</a>
                     </div>
-            </section>
-        </header>
-        <section class=" section-bg-gray" id="acercade">
-            <div class="row container">
-                <article class="acerca-item1">
-                    <img title="hero" src="/assets/img/hero.png" alt="personaje">
-                </article>
-
-                <article class="acerca-item2">
-                    <h2 class="subtitle">Acerca de</h2>
-                    <hr class="line">
-                    </hr>
-                    <h3>Soy Egresado de Desarrollo de
-                        Sistemas de Información</h3>
-                    <p data-aos="fade-up" data-aos-delay="250"> Como Egresado de la carrera de <strong>Desarrollo de
-                            sistemas de información</strong> en
-                        <a href="https://www.idat.edu.pe/" target="_blank">IDAT</a> ,
-                        busco una oportunidad laboral en el área de programación, me desempeño como programador
-                        web en la empresa
-                        de <a href="http://www.grupopalomino.com.pe/" target="_blank">Transporte Palomino</a> desde hace
-                        un año
-                        en un principio con recibos por
-                        honorarios
-                        y en planilla desde el 2 de Diciembre del 2019 hasta la actualidad, conforme paso el
-                        tiempo fui
-                        aprendiendo mas cosas y estoy en busca de un trabajo con nuevos retos además de que me
-                        ofrezca
-                        una linea de carrera para poder seguir aprendiendo.
-                    </p>
-
-                    <ol data-aos="fade-left" data-aos-delay="250" id="skills" style="display:none">
-                        <li> Desarrollé modificaciones a Facturación Electrónica.</li>
-                        <li> Inclusion de método de pago Visa</li>
-                        <li> Cloud de AWS(EC2,route53,S3,Aurora)</li>
-                        <li> Java Web , Spring Framework</li>
-                        <li> Angular 6+</li>
-                        <li> Jquery</li>
-                        <li> Javascript</li>
-                        <li> HTML5</li>
-                        <li> CSS3</li>
-                        <li> Firebase</li>
-                        <li> Mysql,Sql,Postgresql,Oracle</li>
-                        <li> Android</li>
-                        <li> Dispuesto a aprender los requerimientos o tecnología necesaria</li>
-                    </ol>
-                    <span data-aos="fade-up" data-aos-delay="250" id="vermas"><a href="#acercade">ver más</a></span>
-
-                    <section data-aos="fade-up" data-aos-delay="250" class="items-acerca">
-                        <article>
-                            <img title="dirección" src="/assets/img/iconlocation.png" alt="ubicación">
-                            <span>Lima,Perú. Jesús María</span>
-                        </article>
-                        <article>
-                            <img title="teléfono" src="/assets/img/iconphone.png" alt="teléfono">
-                            <span>+51 941289111</span>
-                        </article>
-                        <article>
-                            <img title="email" src="/assets/img/iconemail.png" alt="correo electrónico">
-                            <span>cpinedo428 @gmail. com</span>
-                        </article>
-                        <article>
-                            <img title="edad" src="/assets/img/iconcalendar.png" alt="fecha nacimiento">
-                            <span>11/11/1996</span>
-                        </article>
-
-                    </section>
-                    <hr>
-                    <button data-aos="zoom-in-up" data-aos-delay="250" class="btn-descargar-cv"
-                        onclick="window.open('/assets/CesarsCV.pdf', '_blank');">Descargar CV</button>
+                </div>
             </div>
+        </nav>
+        <div class="container pt-3">
+            <article class="d-flex justify-content-start flex-column align-items-start pt-5 " style="height: 100%;">
+                <h3 class=" pl-3 pr-3 pt-2 pb-2 bg-white rounded font-weight-bold" style="width:120px">¡Hola!</h3>
+                <h1 class="pt-3 h1 text-white"><strong>Soy</strong> Cesar's Pinedo Olivera</h1>
+                <div class="row">
+                    <p class="text-white  col-lg-6 col-md-8 col-xs-12 pt-2">
+                        Soy desarrollador web orientado
+                        principalmente a BackEnd con experiencia
+                        de más de 1 año en el rubro
+                        de Transportes.
+                        Adicionalmente ,he creado sistemas personalizados para empresas pequeñas o medianas,
+                        aplicaciones
+                        móviles y también trabajé en diferentes proyectos como Freelancer ...</p>
+                </div>
+                <article class="d-flex flex-row">
+
+                    <a href="https://www.facebook.com/Cesars-Pinedo-103112268078514" target="_blank">
+                        <i class="text-white fab fa-2x fa-facebook"></i></a>
+                    <a href="https://github.com/CesarsEren/" target="_blank">
+                        <i class="text-white fab fa-2x fa-github ml-4"></i></a>
+
+                    <a href="https://www.pinterest.es/cesarspinedooli/_saved/" target="_blank">
+                        <i class="text-white fab fa-2x fa-pinterest ml-4"></i></a>
+
+                    <a href="https://www.linkedin.com/in/cesars-jose-manuel-pinedo-olivera-68120613a/" target="_blank">
+                        <i class="text-white fab fa-2x fa-linkedin ml-4"></i></a>
+
+                    <a href="https://www.instagram.com/cesarspinedo/?hl=es-la" target="_blank">
+                        <i class="text-white fab fa-2x fa-instagram ml-4"></i></a>
+
+                    <a href="https://api.whatsapp.com/send?phone=51941289111&text=Hola,estoy interesado en una cotización para un software"
+                        target="_blank">
+                        <i class="text-white fab fa-2x fa-whatsapp ml-4"></i></a>
 
 
+                </article>
+            </article>
+        </div>
+
+
+    </header>
+    <main>
+        <section class="section pt-5 pb-5" id="acercade">
+            <div class="container">
+                <div class="row">
+                    <article class="col-md-4  d-flex">
+                        <img class="m-auto img-fluid rounded-pill pb-4" title="hero" src="/assets/img/hero.jpg" alt="personaje">
+                    </article>
+                    <article class="col-md-8">
+                        <h2>Acerca de</h2>
+                        <hr class="line">
+                        <h2 class="display-5 font-weight-bold text-success">Técnico en desarrollo de sistemas de
+                            información</h2>
+                        <p class="pt-2 "> Como Egresado de la carrera de <strong>Desarrollo de
+                                sistemas de información</strong> en
+                            <a href="https://www.idat.edu.pe/" target="_blank">IDAT</a> ,
+                            busco una oportunidad laboral en el área de programación, me desempeño como programador
+                            web en la empresa
+                            de <a href="http://www.grupopalomino.com.pe/" target="_blank">Transporte Palomino</a> desde
+                            hace
+                            un año
+                            en un principio con recibos por
+                            honorarios
+                            y en planilla desde el 2 de Diciembre del 2019 hasta la actualidad, conforme paso el
+                            tiempo fui
+                            aprendiendo mas cosas y estoy en busca de un trabajo con nuevos retos además de que me
+                            ofrezca
+                            una linea de carrera para poder seguir aprendiendo.
+                        </p>
+                        <div class="accordion" id="accordionExample">
+
+                            <div id="headingOne">
+                                <h2 class="mb-0">
+                                    <a class="btn-sm btn-info" type="button" data-toggle="collapse"
+                                        data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        ver más
+                                    </a>
+                                </h2>
+                            </div>
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                                data-parent="#accordionExample">
+                                <ol class="pt-2">
+                                    <li> Desarrollé modificaciones a Facturación Electrónica.</li>
+                                    <li> Inclusión de método de pago Visa</li>
+                                    <li> Cloud de AWS(EC2,route53,S3,Aurora)</li>
+                                    <li> Java Web , Spring Framework</li>
+                                    <li> Angular 6+</li>
+                                    <li> Jquery</li>
+                                    <li> Javascript</li>
+                                    <li> HTML5</li>
+                                    <li> CSS3</li>
+                                    <li> Firebase</li>
+                                    <li> Mysql,Sql,Postgresql,Oracle</li>
+                                    <li> Android</li>
+                                    <li> Dispuesto a aprender los requerimientos o tecnología necesaria</li>
+                                </ol>
+                            </div>
+                            <hr>
+                            <div class="row pt-2 pb-2">
+                                <div class="col ">
+                                    Lima,Perú.Jesús María
+                                </div>
+                                <div class="col">
+                                    +51 941289111
+                                </div>
+                            </div>
+
+                            <div class="row pt-2 pb-2">
+                                <div class="col">
+                                    cpinedo428@gmail.com
+                                </div>
+                                <div class="col">
+                                    11/11/1996
+                                </div>
+                            </div>
+                            <hr>
+                            <a class="text-center btn pl-5 pr-5 pt-2 mt-2 pb-2 btn-success"
+                                href="https://resume.io/r/7ve8ZwclI" target="_blank"> CV Simple </a>
+                            <a class="text-center btn pl-5 pr-5 pt-2 mt-2 pb-2 btn-info" href="/assets/CesarsCV.pdf"
+                                target='_blank'> CV Detallado </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
         </section>
-        <section class="section-bg-gray" id="servicios">
-            <div class="container-flex">
-                <!--<span class="btn-title">¿Qué Hago?</span>-->
-                <h2 class="subtitle middle">Mis Servicios</h2>
-                <p>Desarrollo de software a medida para Pequeñas y Medianas Empresas</p>
+        <section class=" pt-5 pb-5" id="servicios">
+            <article>
+                <h2 class="text-center">Mis Servicios</h2>
+                <p class="text-center">Desarrollo softwares para pequeñas y medianas empresas</p>
                 <hr class="line2">
-            </div>
-            <div class="items-servicios">
-                <article data-aos="flip-right">
-                    <ul>
-                        <li><img title="android" src="/assets/img/imgphone.png" alt="Movil"></li>
-                        <li><label for="">Desarrollo Movil Android</label></li>
-                    </ul>
-                </article>
-                <article data-aos="flip-right">
-                    <ul>
-                        <li><img title="escritorio" src="/assets/img/imgdesktop.png" alt="Escritorio"></li>
-                        <li><label for="">Desarrollo Desktop</label></li>
-                    </ul>
-                </article>
-                <article data-aos="flip-right">
-                    <ul>
-                        <li><img title="web" src="/assets/img/imgweb.png" alt="Web"></li>
-                        <li><label for="">Desarrollo Web</label></li>
-                    </ul>
-                </article>
+            </article>
+            <article class="container pt-4">
+                <div class="row justify-content-md-center">
+                    <div class="col-lg-4 col-md-10 pb-3" data-aos="flip-right">
+                        <div class="card">
+                            <img src="/assets/img/imgphone.png" class="img-fluid card-img-top" alt="...">
+                            <div class="card-header text-center font-weight-bold">
+                                <p> Desarrollo Móvil Android</p>
 
-            </div>
+                                <a href="#" class="pt-2 btn btn-primary">VER PROYECTOS</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-10 pb-3" data-aos="flip-right">
+                        <div class="card">
+                            <img src="/assets/img/imgdesktop.png" class="img-fluid card-img-top" alt="...">
+                            <div class="card-header text-center font-weight-bold">
+                                <p>Desarrollo Desktop</p>
+                                <a href="#" class="pt-2 btn btn-primary">VER PROYECTOS</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-10 pb-3">
+                        <div class="card">
+                            <img src="/assets/img/imgweb.png" class="img-fluid card-img-top" alt="...">
+                            <div class="card-header text-center font-weight-bold">
+                                <p>Desarrollo Web</p>
+                                <a href="#" class="pt-2  btn btn-primary">VER PROYECTOS</a>
 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
         </section>
     </main>
-
-    <footer>
-        <p>Cesar's Pinedo 2020 © All Rights Reserved</p>
+    <footer class="bg-success">
+        <div class="  pt-2 pb-2">
+            <div class="container">
+                <div class="text-center text-white">Cesar's Pinedo 2020 © All Rights Reserved</div>
+            </div>
+        </div>
     </footer>
-    <script>
-        var mybutton = document.getElementById("btnVolver");
-        var vermas = document.getElementById("vermas");
-        var skills = document.getElementById("skills");
-        var __activo = false;
-        window.onload = function () {
-            AOS.init();
-            vermas.addEventListener("click", function () {
-                if (__activo) {
-                    skills.style.display = "none";
-                    vermas.innerHTML = "<a href='#acercade'>ver más</a>";
-                    __activo = false;
-                } else {
-                    __activo = true;
-                    skills.style.display = "block";
-                    vermas.innerHTML = "<a href='#acercade'>ver menos</a>";
-                }
-            })
-        }
-        window.onscroll = function () { scrollFunction() };
+ 
 
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                mybutton.style.display = "block";
-            } else {
-                mybutton.style.display = "none";
-            }
-        }
 
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-    </script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+            <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179065355-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -252,8 +299,6 @@
             a.appendChild(r);
         })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
     </script>
-
-
 </body>
 
 </html>
